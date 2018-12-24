@@ -1,0 +1,155 @@
+
+@font-face {
+  font-family: ConcourseRegular;
+  src:  url('fonts/concourse_t4_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ConcourseItalic;
+  src:  url('fonts/concourse_t4_italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ConcourseBold;
+  src:  url('fonts/concourse_t4_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ConcourseBoldItalics;
+  src:  url('fonts/concourse_t4_tab_bold_italic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ConcourseHeadline;
+  src:  url('fonts/concourse_t6_regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: ConcourseSubHeadline;
+  src:  url('fonts/concourse_c2_bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+strong {
+   font-family: 'ConcourseBold';
+   font-weight: normal;
+   font-style: normal;
+}
+
+em {
+   font-family: 'ConcourseItalic';
+   font-weight: normal;
+   font-style: normal;
+}
+
+em strong {
+   font-family: 'ConcourseBoldItalics';
+   font-weight: normal;
+   font-style: normal;
+}
+
+
+h1 {
+    font-size: 50px; 
+    font-family: 'ConcourseSubHeadline'; 
+    text-align: center;
+    margin-bottom:5px;
+    line-height:100%;
+}
+
+.homesubheadline {
+    font-size: 20px; 
+    margin-top:0px;
+    margin-bottom:30px;
+}
+
+h1.name {
+    font-size:28px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+}
+
+
+h2 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-size: 40px; 
+    font-family: 'ConcourseHeadline'; 
+    text-align: left;
+}
+
+h2.center {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 90px;
+    margin-bottom: 90px;
+    font-size: 40px; 
+    font-family: 'ConcourseHeadline'; 
+    text-align: left;
+}
+
+
+.testimonial {
+    font-size: 17px;
+    margin-bottom: 30px;
+    line-height: 145%;
+  }
+
+/*.headline {
+    max-width: 700px;
+    margin:auto;
+}*/
+
+.main {
+    max-width: 620px; 
+    margin:auto;
+    font-family: 'ConcourseRegular'; 
+    font-size: 19px; 
+}
+
+.main h6 {
+   font-family: ConcourseSubHeadline;
+   font-size: 27px; 
+
+    margin-block-start: 60px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.submain {
+   text-align: left;
+   line-height: 150%;
+   max-width: 550px;
+}
+
+.subheadline {
+  max-width: 620px; 
+  font-size: 20px;
+  margin:auto;
+  text-align: center;       
+  font-family: 'ConcourseRegular'; 
+}
+
+.buttonheadline {
+  font-size:13px; 
+  margin-top:15px
+}
+
