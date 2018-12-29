@@ -145,14 +145,15 @@ h3 {
 
 .main h6 {
    font-family: ConcourseSubHeadline;
-   font-size: 27px; 
+   font-size: 20px; 
    margin-bottom: 0px;
    margin-top: 40px;
+   line-height: 20px;
 }
 
 .main h6 a {
    font-family: ConcourseSubHeadline;
-   font-size: 18px; 
+   font-size: 17px; 
    margin-bottom: 0px;
 }
 
