@@ -32,6 +32,9 @@
   src:  url('fonts/concourse_t6_regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
 }
 
 @font-face {
@@ -83,9 +86,8 @@ h1.name {
 }
 
 h2 {
-    margin-top: 90px;
-    margin-bottom: 90px;
-    font-size: 50px; 
+    margin-top:40px;
+    font-size: 30px; 
     font-family: 'ConcourseHeadline'; 
     text-align: left;
 }
@@ -97,9 +99,26 @@ h2.center {
   font-size: 40px; 
 }
 
-h3 {
+h2.main {
     margin-top: 90px;
     margin-bottom: 90px;
+    font-size: 20px; 
+    font-family: 'ConcourseHeadline'; 
+    text-align: left;
+}
+
+
+h3.main {
+    margin-top: 90px;
+    margin-bottom: 40px;
+    font-size: 50px; 
+    font-family: 'ConcourseHeadline'; 
+    text-align: left;   
+}
+
+h3 {
+    margin-top: 90px;
+    margin-bottom: 40px;
     font-size: 40px; 
     font-family: 'ConcourseHeadline'; 
     text-align: left;
@@ -128,11 +147,13 @@ h3 {
    font-family: ConcourseSubHeadline;
    font-size: 27px; 
    margin-bottom: 0px;
+   margin-top: 40px;
+}
 
-    /*margin-block-start: 60px;
-    margin-block-end: 30px;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;*/
+.main h6 a {
+   font-family: ConcourseSubHeadline;
+   font-size: 18px; 
+   margin-bottom: 0px;
 }
 
 .submain {
